@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Red Rose', cursive;
+  font-weight: normal;
+}
+
+body {
+  background: rgb(200, 200, 200);
+}
+
+.wrapper {
+  width: 80%;
+  height: 550px;
+  margin: 25px auto;
+  border-radius: 5px;
+  box-shadow: 15px 15px 25px rgb(167, 167, 167);
+  background: rgb(155, 155, 155);
+  padding: 25px;
+}
+
+.input-block,
+.output-block {
+  width: 80%;
+  margin: 25px auto;
+}
+
+textarea {
+  display: block;
+  width: 100%;
+  height: 150px;
+  font-size: 1.2em;
+  padding: 15px;
+  box-sizing: border-box;
+  letter-spacing: 5px;
+}
+
+.input-block__heading,
+.output-block__heading {
+  text-align: center;
+  margin: 10px;
+  font-weight: 700;
+}
+
+.input-block__controls {
+  width: 100%;
+  font-size: 1.2em;
+  margin: 5px auto;
+  padding: 10px;
+}
+
+.input-block__controls:hover {
+  cursor: pointer;
+  background: rgb(216, 216, 216);
+  border-color: rgb(197, 197, 197);
+}
+
+.output-block__details {
+  margin: 25px 0;
+}
